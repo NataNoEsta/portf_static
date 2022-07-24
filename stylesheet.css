@@ -1,0 +1,71 @@
+body {
+    margin: 5%;
+    padding-top: 1%;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: pink;
+
+}
+h1, h2 {
+    color: white;
+    margin: 12px;
+    background-color: black;
+    font-style: italic;
+}
+#subtitle {
+    color: black;
+    font-weight: bold;
+    background-color: inherit;
+    font-family: Georgia, serif;
+}
+section {
+    display: grid;
+    border: 5px;
+    padding: 15px;
+    background-color: beige;
+}
+
+p mark {
+    background-color: chartreuse;
+}
+
+a {
+    color:grey;
+}
+a:hover{
+    color: red;
+}
+
+nav {
+    display: inline-block;
+    margin: 10px;
+    background-color: beige;
+}
+aside {
+    display:contents;
+    position: relative;
+    background-color: inherit;
+    max-width: 30%;
+    margin: auto, auto;
+    
+}
+#derecho {
+    display: inline-block;
+}
+h4{
+    font-weight: bolder;
+    color:coral;
+
+}
+article {
+    margin: 5px;
+    padding:5px;
+    display: block;
+    float:none;
+    margin: 12px;
+    max-width: 60%;
+}
+footer {
+    position: fixed;
+    background-color: inherit;
+    text-align: center;
+}
