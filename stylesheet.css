@@ -17,7 +17,7 @@ h1, h2 {
     background-color: inherit;
     font-family: Georgia, serif;
 }
-section {
+.container {
     display: grid;
     border: 5px;
     padding: 15px;
@@ -48,24 +48,23 @@ aside {
     margin: auto, auto;
     
 }
-#derecho {
-    display: inline-block;
-}
+
 h4{
     font-weight: bolder;
     color:coral;
 
 }
-col-3 {
+col {
     margin: 5px;
-    padding:5px;
-    display: block;
-    float:none;
+    padding:15px;
     margin: 12px;
     max-width: 60%;
 }
 footer {
     position: fixed;
+    display: block;
     background-color: inherit;
-    text-align: center;
+    margin-left: 35%;
+
+    bottom: 0px;
 }
