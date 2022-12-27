@@ -1,0 +1,178 @@
+/* @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"); */
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://example.com/MaterialIcons-Regular.eot); /* For IE6-8 */
+    src: local('Material Icons'),
+      local('MaterialIcons-Regular'),
+      url(https://example.com/MaterialIcons-Regular.woff2) format('woff2'),
+      url(https://example.com/MaterialIcons-Regular.woff) format('woff'),
+      url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');
+}
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+  
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+}
+* {
+    box-sizing: border-box;
+  }
+  
+.material-icons:hover {
+    cursor: pointer;
+}
+
+body {
+    background-color:whitesmoke;
+    font-family: 'Inconsolata', serif;
+
+}
+h2, h3, h5, h6 {
+    text-justify: auto;
+    font-weight: 600;
+    font-family: 'Playfair Display', serif;
+
+}
+.container { 
+    background-color: transparent;
+    display:flex;
+    flex-direction: column;
+    width:100%;
+    margin:0 auto;
+    margin-top:-120px;
+   
+}
+
+.card-header {
+    background-image: linear-gradient(-95deg, aquamarine , rgb(245, 176, 199));
+    height: 190px;
+    width:100%;
+    box-shadow: 2px 2px 4px plum;
+}
+.card-header h1, .card-header p, .footer p {
+    min-width:350px;
+    margin:30px;
+    text-align: center;
+    color:blanchedalmond;
+}
+
+h1, h2 {
+    text-shadow: (2px 2px 4px white);
+    font-family: 'Playfair Display', serif;
+    display: block;
+    font-style:oblique;
+}
+.footer {
+    background-image: linear-gradient(-95deg, aquamarine , rgb(245, 176, 199));
+    width: 100%;
+    height: 20px;
+    bottom:0;
+}
+.card {
+    background-color:transparent;
+    border: none;
+    margin: 2px;
+    
+}
+hr {
+    display: block;
+    position: relative;
+    width: 90%;
+    align-self: center;
+    background-color: plum;
+
+}
+.card-body {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 10px;
+}
+
+#profile-img > img{
+    width: 200px;
+    border:1px solid white;
+    border-radius: 50%;
+}
+#info-data {
+
+    padding:10px;
+}
+.card-link {
+    color: palevioletred;
+    text-decoration: none;
+    
+}
+.card-link:hover{
+    text-shadow:  2px 2px 3px rgb(253, 253, 194);
+    color: palevioletred;
+    font-weight: bold;
+    border:none;
+}
+#first-card > div {
+    background-color:transparent;
+}
+.progress-wrapp {
+    max-width:200px;
+    display: flex;
+    flex-flow: row;
+}
+
+.progress, #cuarta > p{
+    justify-content: left;
+
+}
+
+.card-heading {
+    display: inline;
+    position:relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.card-heading.material-icons {
+    display: block;
+    position: relative;
+
+}
+@media screen and (max-width: 690px ){    
+    .card-header h1, .card-header p, .footer p {
+
+        text-align:center;
+    }
+    #subtitle {
+        text-align: center;
+    }
+    
+}
+@media screen and (max-width: 300px){
+    .card-header h1, .card-header p {
+        text-align: right;
+    
+    }
+    #subtitle {
+        text-align: right;
+        margin: auto 0;
+    }
+}
